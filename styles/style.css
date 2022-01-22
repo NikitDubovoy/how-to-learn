@@ -13,6 +13,11 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   /* выше установили ограничения для секции */
 }
 
@@ -21,11 +26,64 @@
   height: 568px;
   width: 568px;
 }
-
+div {
+  border: 1px solid red;
+}
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+.logo {
+  background-image: url("../images/logo_place_header.svg");
+  width: 183px;
+}
+.logo_place_header {
+  height: 32px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+}
+.header__title {
+  font-size: 102px;
+  width: 730px;
+  margin: 0;
+  position: absolute;
+  left: 64px;
+  line-height: 96px;
+  font-weight: bold;
+  z-index: 3;
+}
+.header__subtitle {
+  position: absolute;
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 25px;
+  z-index: 3;
+}
+.header__link {
+color: #2f80ed;
+text-decoration: none;
+}
+.header__main-illustration {
+  width: 765px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+.header__square-pic {
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 1;
 }
