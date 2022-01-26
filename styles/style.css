@@ -26,6 +26,14 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 1;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -75,16 +83,6 @@ text-decoration: none;
   bottom: 0;
   right: 0;
   z-index: 2;
-}
-.header__square-pic {
-  width: 568px;
-  height: 568px;
-  background-color: #2f80ed;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 64px;
-  z-index: 1;
 }
 .description {
   display: flex;
