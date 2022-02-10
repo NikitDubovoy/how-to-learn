@@ -3,3 +3,8 @@
     height: 38px;
     text-align: center;
   }
+
+  .resources__logo:hover {
+    animation: scaling 0.5s 1 normal forwards;
+  }
+  

@@ -3,3 +3,8 @@
     color: #fff;
     margin: 0;
   }
+
+  .footer__column-link:hover {
+    animation: transparency 1s 1 normal forwards;
+
+  }

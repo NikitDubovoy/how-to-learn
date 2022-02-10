@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/rotation/rotation.css);
+@import url(../blocks/scaling/scaling.css);
+@import url(../blocks/transparency/transparency.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/description/description.css);
 @import url(../blocks/digits/digits.css);
